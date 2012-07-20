@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Module Name="Bootstrap" List="116" Url="/">
+        <File Path="Bootstrap\bootstrap.master" Url="root.master" IgnoreIfAlreadyExists="true" />
+    </Module>
+</Elements>
