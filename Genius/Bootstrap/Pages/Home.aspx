@@ -2,7 +2,7 @@
 
 <%@ Page masterpagefile="~site/_catalogs/masterpage/bootstrap.master" title="Genius" %>
 
-<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="PlaceHolderMain">
+<asp:Content ID="Content2" runat="server" ContentPlaceHolderID="PlaceHolderMain">
     <section id="solutions">
         <div class="page-header">
             <h1>Solutions <small>Components, plugins and Web Parts for SharePoint Online</small></h1>
