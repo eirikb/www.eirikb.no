@@ -44,7 +44,7 @@
             <header id="intro">
                 <div class="logo"></div>
                 <h1>It's Genius! SharePoint Online solutions</h1>
-                <p class="lead">We create and design simple elegant and genius solutions for <a href="http://www.microsoft.com/nb-no/office365/sharepoint-online.aspx">SharePoint Online</a>.</p>
+                <p class="lead">We create and design simple, elegant and genius solutions for <a href="http://www.microsoft.com/nb-no/office365/sharepoint-online.aspx">SharePoint Online</a>.</p>
             </header>
 
             <asp:ContentPlaceHolder id="PlaceHolderMain" runat="server" />
