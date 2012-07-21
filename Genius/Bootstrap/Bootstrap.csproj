@@ -53,8 +53,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Bootstrap\bootstrap.master" />
-    <None Include="Bootstrap\SharePointProjectItem.spdata">
+    <None Include="Masterpage\bootstrap.master">
+      <SubType>ASPXCodeBehind</SubType>
+    </None>
+    <None Include="Masterpage\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{a5151a26-9c5b-49d1-840c-1871c7951996}</SharePointProjectItemId>
     </None>
     <None Include="Features\GeniusBootstrap\GeniusBootstrap.feature">
@@ -67,14 +69,21 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1b6da390-c4d1-4c48-8c36-77036e0b687c}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Bootstrap\Elements.xml">
+    <Content Include="Masterpage\Elements.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Features\GeniusBootstrap\GeniusBootstrap.Template.xml">
       <DependentUpon>GeniusBootstrap.feature</DependentUpon>
+    </Content>
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Home.aspx">
+      <SubType>ASPXCodeBehind</SubType>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
