@@ -3,5 +3,7 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
     <Module Name="Assets">
         <File Path="Assets\css\style.css" Url="css/style.css" />
+        <File Path="Assets\img\pattern.png" Url="img/pattern.png" />
+        <File Path="Assets\img\logo.png" Url="img/logo.png" />
     </Module>
 </Elements>

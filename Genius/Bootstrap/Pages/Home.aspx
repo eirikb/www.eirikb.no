@@ -3,11 +3,6 @@
 <%@ Page masterpagefile="~site/_catalogs/masterpage/bootstrap.master" title="Genius" %>
 
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="PlaceHolderMain">
-    <header id="intro">
-        <h1>It's Genius! SharePoint Online solutions</h1>
-        <p class="lead">We create and design simple elegant and genius solutions for <a href="http://www.microsoft.com/nb-no/office365/sharepoint-online.aspx">SharePoint Online</a>.</p>
-    </header>
-  
     <section id="solutions">
         <div class="page-header">
             <h1>Solutions <small>Components, plugins and Web Parts for SharePoint Online</small></h1>

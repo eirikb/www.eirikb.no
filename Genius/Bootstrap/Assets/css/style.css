@@ -1,4 +1,21 @@
 ﻿body {
     font-family: 'Alike', serif;
     font-weight: 400;
+    background-image: url(../img/pattern.png);
+}
+
+header, section, footer {
+    margin-top: 50px;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.logo {
+    background-image: url(../img/logo.png);
+    width: 65px;
+    height: 60px;
+    background-repeat: no-repeat;
+    margin-left: -49px;
+    margin-top: -42px;
 }

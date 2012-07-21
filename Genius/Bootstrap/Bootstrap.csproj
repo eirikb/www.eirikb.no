@@ -80,6 +80,8 @@
   <ItemGroup>
     <Content Include="Assets\css\style.css" />
     <Content Include="Assets\Elements.xml" />
+    <Content Include="Assets\img\logo.png" />
+    <Content Include="Assets\img\pattern.png" />
     <Content Include="Masterpage\Elements.xml">
       <SubType>Designer</SubType>
     </Content>

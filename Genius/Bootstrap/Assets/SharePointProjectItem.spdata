@@ -3,5 +3,7 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Assets\" Type="ElementManifest" />
     <ProjectItemFile Source="css\style.css" Target="Assets\css\" Type="ElementFile" />
+    <ProjectItemFile Source="img\pattern.png" Target="Assets\img\" Type="ElementFile" />
+    <ProjectItemFile Source="img\logo.png" Target="Assets\img\" Type="ElementFile" />
   </Files>
 </ProjectItem>
