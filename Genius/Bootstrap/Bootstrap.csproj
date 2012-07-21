@@ -53,6 +53,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fcd06921-64b3-4784-8cd3-d02396e5d353}</SharePointProjectItemId>
+    </None>
     <None Include="Masterpage\bootstrap.master">
       <SubType>ASPXCodeBehind</SubType>
     </None>
@@ -75,6 +78,8 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Assets\css\style.css" />
+    <Content Include="Assets\Elements.xml" />
     <Content Include="Masterpage\Elements.xml">
       <SubType>Designer</SubType>
     </Content>

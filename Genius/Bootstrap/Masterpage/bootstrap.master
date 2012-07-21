@@ -11,8 +11,8 @@
 
         <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css">
         <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Karla">
-        <link rel="stylesheet" href="/css/style.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Alike' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css" rel="stylesheet">
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>
         <![endif]-->
