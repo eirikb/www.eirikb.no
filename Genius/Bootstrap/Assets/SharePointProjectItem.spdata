@@ -10,5 +10,7 @@
     <ProjectItemFile Source="img\enhancedlookup3.png" Target="Assets\img\" Type="ElementFile" />
     <ProjectItemFile Source="img\essentials.png" Target="Assets\img\" Type="ElementFile" />
     <ProjectItemFile Source="js\script.js" Target="Assets\js\" Type="ElementFile" />
+    <ProjectItemFile Source="img\download.png" Target="Assets\img\" Type="ElementFile" />
+    <ProjectItemFile Source="wsp\Essentials.wsp" Target="Assets\wsp\" Type="ElementFile" />
   </Files>
 </ProjectItem>

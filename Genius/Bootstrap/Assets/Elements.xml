@@ -10,5 +10,7 @@
         <File Type="GhostableInLibrary" Path="Assets\img\enhancedlookup3.png" Url="img/enhancedlookup3.png" />
         <File Type="GhostableInLibrary" Path="Assets\img\essentials.png" Url="img/essentials.png" />
         <File Type="GhostableInLibrary" Path="Assets\js\script.js" Url="js/script.js" />
+        <File Type="GhostableInLibrary" Path="Assets\img\download.png" Url="img/download.png" />
+        <File Type="GhostableInLibrary" Path="Assets\wsp\Essentials.wsp" Url="wsp/Essentials.wsp" />
     </Module>
 </Elements>

@@ -60,23 +60,25 @@
                     <dt>Enterprise</dt>
                     <dd><span class="label label-success">Supported</span></dd>
                 </dl>
-                <div class="span12">
-                    <button class="btn btn-info" data-toggle="collapse" data-target="#essentials-fordevs">For Developers</button>
+                <p><a class="btn btn-large" href="wsp/Essentials.wsp"><i class="download"></i>Download</a></p>
+            </div>
+            <div class="span12">
+                <button class="btn btn-info" data-toggle="collapse" data-target="#essentials-fordevs">For Developers</button>
  
-                    <div id="essentials-fordevs" class="collapse">
-                        <h3>genius.loadScript</h3>
-                        <p>This is a JavaScript function which let developers load scripts. It can take these different arguments:</p>
-                        <ul>
-                            <li><b>loadScript(nameOfScript, urlToScript, callbackFunction)</b></li>
-                            <li><b>loadScript(nameOfScript, urlToScript)</b></li>
-                            <li><b>loadScript(nameOfScript, callbackFunction)</b></li>
-                            <li><b>loadScript(urlToScript)</b></li>
-                        </ul>
-                        <p>
-                            <b>nameOfScript</b> is used to identify scripts so they are only loaded once, the practice here is to use <i>lower case</i> names.
-                            Example usage:
-                        </p>
-                        <pre class="prettyprint linenums">
+                <div id="essentials-fordevs" class="collapse">
+                    <h3>genius.loadScript</h3>
+                    <p>This is a JavaScript function which let developers load scripts. It can take these different arguments:</p>
+                    <ul>
+                        <li><b>loadScript(nameOfScript, urlToScript, callbackFunction)</b></li>
+                        <li><b>loadScript(nameOfScript, urlToScript)</b></li>
+                        <li><b>loadScript(nameOfScript, callbackFunction)</b></li>
+                        <li><b>loadScript(urlToScript)</b></li>
+                    </ul>
+                    <p>
+                        <b>nameOfScript</b> is used to identify scripts so they are only loaded once, the practice here is to use <i>lower case</i> names.
+                        Example usage:
+                    </p>
+                    <pre class="prettyprint linenums">
 // Load jQuery from code.jquery.com
 genius.loadScript('jquery', 'http://code.jquery.com/jquery.min.js', function() {
     // Load jQuery once more, but rely on the fact that it's already added to the "load" queue
@@ -87,14 +89,13 @@ genius.loadScript('jquery', 'http://code.jquery.com/jquery.min.js', function() {
     });
 });
                     </pre>
-                        <p>This can also be used in Elements.xml (Empty element in Visual Studio)</p>
-                        <pre class="prettyprint linenums">
+                    <p>This can also be used in Elements.xml (Empty element in Visual Studio)</p>
+                    <pre class="prettyprint linenums">
 &lt;Elements xmlns="http://schemas.microsoft.com/sharepoint/"&gt;
     &CustomAction Location="ScriptLink" Sequence="1101"
                   ScriptBlock="genius.loadScript('~site/mycompany/js/application.js');" /&gt;
 &lt;/Elements&gt;
                     </pre>
-                    </div>
                 </div>
             </div>
         </div>

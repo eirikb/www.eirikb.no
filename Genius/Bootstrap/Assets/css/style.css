@@ -84,3 +84,19 @@ label.enhancedlookup {
     top: 564px;
     font-size: 43px;
 }
+
+.download {
+    background-image: url(../img/download.png);
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+}
+
+a:hover .download {
+    transition: background-position 0.1s;
+    -moz-transition: background-position 0.1s;
+    -webkit-transition: background-position 0.1s;
+    -o-transition: background-position 0.1s;
+    background-position: 0px 5px;
+}
