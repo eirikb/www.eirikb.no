@@ -5,5 +5,10 @@
         <File Type="GhostableInLibrary" Path="Assets\css\style.css" Url="css/style.css" />
         <File Type="GhostableInLibrary" Path="Assets\img\pattern.png" Url="img/pattern.png" />
         <File Type="GhostableInLibrary" Path="Assets\img\logo.png" Url="img/logo.png" />
+        <File Type="GhostableInLibrary" Path="Assets\img\enhancedlookup1.png" Url="img/enhancedlookup1.png" />
+        <File Type="GhostableInLibrary" Path="Assets\img\enhancedlookup2.png" Url="img/enhancedlookup2.png" />
+        <File Type="GhostableInLibrary" Path="Assets\img\enhancedlookup3.png" Url="img/enhancedlookup3.png" />
+        <File Type="GhostableInLibrary" Path="Assets\img\essentials.png" Url="img/essentials.png" />
+        <File Type="GhostableInLibrary" Path="Assets\js\script.js" Url="js/script.js" />
     </Module>
 </Elements>

@@ -5,5 +5,10 @@
     <ProjectItemFile Source="css\style.css" Target="Assets\css\" Type="ElementFile" />
     <ProjectItemFile Source="img\pattern.png" Target="Assets\img\" Type="ElementFile" />
     <ProjectItemFile Source="img\logo.png" Target="Assets\img\" Type="ElementFile" />
+    <ProjectItemFile Source="img\enhancedlookup1.png" Target="Assets\img\" Type="ElementFile" />
+    <ProjectItemFile Source="img\enhancedlookup2.png" Target="Assets\img\" Type="ElementFile" />
+    <ProjectItemFile Source="img\enhancedlookup3.png" Target="Assets\img\" Type="ElementFile" />
+    <ProjectItemFile Source="img\essentials.png" Target="Assets\img\" Type="ElementFile" />
+    <ProjectItemFile Source="js\script.js" Target="Assets\js\" Type="ElementFile" />
   </Files>
 </ProjectItem>

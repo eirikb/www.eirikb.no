@@ -80,8 +80,13 @@
   <ItemGroup>
     <Content Include="Assets\css\style.css" />
     <Content Include="Assets\Elements.xml" />
+    <Content Include="Assets\img\enhancedlookup1.png" />
+    <Content Include="Assets\img\enhancedlookup2.png" />
+    <Content Include="Assets\img\enhancedlookup3.png" />
+    <Content Include="Assets\img\essentials.png" />
     <Content Include="Assets\img\logo.png" />
     <Content Include="Assets\img\pattern.png" />
+    <Content Include="Assets\js\script.js" />
     <Content Include="Masterpage\Elements.xml">
       <SubType>Designer</SubType>
     </Content>
