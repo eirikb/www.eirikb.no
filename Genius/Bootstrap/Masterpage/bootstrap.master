@@ -3,11 +3,11 @@
 <%@ Register tagprefix="SharePoint" namespace="Microsoft.SharePoint.WebControls" assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <html lang="en">
     <!--
-        ____            _                _    ____  
-        / ___| ___ _ __ (_)_   _ ___     / \  / ___| 
+          ____            _                _    ____  
+         / ___| ___ _ __ (_)_   _ ___     / \  / ___| 
         | |  _ / _ \ '_ \| | | | / __|   / _ \ \___ \ 
         | |_| |  __/ | | | | |_| \__ \  / ___ \ ___) |
-        \____|\___|_| |_|_|\__,_|___/ /_/   \_\____/ 
+         \____|\___|_| |_|_|\__,_|___/ /_/   \_\____/ 
 
         www.itsgenius.no
         -->

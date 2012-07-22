@@ -53,10 +53,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\js\ponies.txt" />
     <None Include="Assets\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{fcd06921-64b3-4784-8cd3-d02396e5d353}</SharePointProjectItemId>
     </None>
-    <None Include="Assets\wsp\Essentials.wsp" />
+    <None Include="Assets\wsp\Essentials-1.0.2.wsp" />
     <None Include="Masterpage\bootstrap.master">
       <SubType>ASPXCodeBehind</SubType>
     </None>

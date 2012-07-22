@@ -11,7 +11,8 @@
     <ProjectItemFile Source="img\essentials.png" Target="Assets\img\" Type="ElementFile" />
     <ProjectItemFile Source="js\script.js" Target="Assets\js\" Type="ElementFile" />
     <ProjectItemFile Source="img\download.png" Target="Assets\img\" Type="ElementFile" />
-    <ProjectItemFile Source="wsp\Essentials.wsp" Target="Assets\wsp\" Type="ElementFile" />
     <ProjectItemFile Source="img\lookup.png" Target="Assets\img\" Type="ElementFile" />
+    <ProjectItemFile Source="wsp\Essentials-1.0.2.wsp" Target="Assets\wsp\" Type="ElementFile" />
+    <ProjectItemFile Source="js\ponies.txt" Target="Assets\js\" Type="ElementFile" />
   </Files>
 </ProjectItem>

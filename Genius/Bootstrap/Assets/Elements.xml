@@ -11,7 +11,8 @@
         <File Path="Assets\img\essentials.png" Url="img/essentials.png" />
         <File Path="Assets\js\script.js" Url="js/script.js" />
         <File Path="Assets\img\download.png" Url="img/download.png" />
-        <File Path="Assets\wsp\Essentials.wsp" Url="wsp/Essentials.wsp" />
         <File Path="Assets\img\lookup.png" Url="img/lookup.png" />
+        <File Path="Assets\wsp\Essentials-1.0.2.wsp" Url="wsp/Essentials-1.0.2.wsp" />
+        <File Path="Assets\js\ponies.txt" Url="js/ponies.txt" />
     </Module>
 </Elements>
