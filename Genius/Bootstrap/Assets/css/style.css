@@ -8,7 +8,8 @@ header, section, footer {
     margin-top: 40px;
     background-color: #FFF;
     padding: 15px;
-    border-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 footer { margin-bottom: 15px; }
@@ -59,31 +60,26 @@ footer { margin-bottom: 15px; }
     transform: rotate(-30deg);
 }
 
-div.essentials {
-    position: absolute;
-    top: 525px;
-    left: 550px;
+.badge {
+    width: 0px;
+    height: 0px;
 }
 
-label.essentials {
-    position: absolute;
-    left: 555px;
-    top: 564px;
+.badge div {
+    position: relative;
+    top: -70px;
+    left: 300px;
+}
+
+.badge label {
+    position: relative;
+    top: -125px;
+    left: 305px;
     font-size: 43px;
+    color: #08C;
 }
 
-div.enhancedlookup {
-    position: absolute;
-    top: 525px;
-    left: 955px;
-}
-
-label.enhancedlookup {
-    position: absolute;
-    left: 960px;
-    top: 564px;
-    font-size: 43px;
-}
+.badge:hover label { color: #005580; }
 
 .download {
     background-image: url(../img/download.png);
@@ -99,4 +95,8 @@ a:hover .download {
     -webkit-transition: background-position 0.1s;
     -o-transition: background-position 0.1s;
     background-position: 0px 5px;
+}
+
+#demo select {
+    width: 300px;
 }

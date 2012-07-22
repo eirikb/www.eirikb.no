@@ -12,5 +12,6 @@
     <ProjectItemFile Source="js\script.js" Target="Assets\js\" Type="ElementFile" />
     <ProjectItemFile Source="img\download.png" Target="Assets\img\" Type="ElementFile" />
     <ProjectItemFile Source="wsp\Essentials.wsp" Target="Assets\wsp\" Type="ElementFile" />
+    <ProjectItemFile Source="img\lookup.png" Target="Assets\img\" Type="ElementFile" />
   </Files>
 </ProjectItem>

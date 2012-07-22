@@ -87,6 +87,7 @@
     <Content Include="Assets\img\essentials.png" />
     <Content Include="Assets\img\download.png" />
     <Content Include="Assets\img\logo.png" />
+    <Content Include="Assets\img\lookup.png" />
     <Content Include="Assets\img\pattern.png" />
     <Content Include="Assets\js\script.js" />
     <Content Include="Masterpage\Elements.xml">

@@ -3,13 +3,13 @@
 <%@ Register tagprefix="SharePoint" namespace="Microsoft.SharePoint.WebControls" assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <html lang="en">
     <!--
-          ____            _                _    ____  
-         / ___| ___ _ __ (_)_   _ ___     / \  / ___| 
+        ____            _                _    ____  
+        / ___| ___ _ __ (_)_   _ ___     / \  / ___| 
         | |  _ / _ \ '_ \| | | | / __|   / _ \ \___ \ 
         | |_| |  __/ | | | | |_| \__ \  / ___ \ ___) |
-         \____|\___|_| |_|_|\__,_|___/ /_/   \_\____/ 
+        \____|\___|_| |_|_|\__,_|___/ /_/   \_\____/ 
 
-          www.itsgenius.no
+        www.itsgenius.no
         -->
     <head>
         <meta charset="utf-8">
@@ -22,15 +22,17 @@
         <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css">
         <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.css">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alike">
+        <link rel="stylesheet" href="http://ivaynberg.github.com/select2/select2-2.1/select2.css" />
         <link rel="stylesheet" href="css/style.css">
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>
         <![endif]-->
 
-        <script src="http://code.jquery.com/jquery.min.js"></script>
-        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js"></script>
-        <script src="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.js"></script>
-        <script src="js/script.js"></script>
+        <script src="http://code.jquery.com/jquery.min.js"> </script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js"> </script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.js"> </script>
+        <script src="http://ivaynberg.github.com/select2/select2-2.1/select2.js"> </script>
+        <script src="js/script.js"> </script>
         <script>
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-33400470-1']);
@@ -50,7 +52,7 @@
             <header id="intro">
                 <div class="logo"></div>
                 <h1>It's Genius! SharePoint Online solutions</h1>
-                <p class="lead">We create and design simple, elegant and genius solutions for <a href="http://www.microsoft.com/nb-no/office365/sharepoint-online.aspx">SharePoint Online</a>.</p>
+                <p class="lead">We create and design simple, elegant and genius solutions for <a href="http://www.microsoft.com/office365/sharepoint-online.aspx">SharePoint Online</a>.</p>
             </header>
 
             <asp:ContentPlaceHolder id="PlaceHolderMain" runat="server" />
@@ -58,7 +60,7 @@
             <footer class="footer">
                 <p class="pull-right"><a href="#">Back to top</a></p>
                 <p>Designed and built by Genius AS</p>
-                <p>Hosted on <a href="http://www.microsoft.com/nb-no/office365/sharepoint-online.aspx">SharePoint Online</a></p>
+                <p>Hosted on <a href="http://www.microsoft.com/office365/sharepoint-online.aspx">SharePoint Online</a></p>
             </footer>
         </div>
     </body>

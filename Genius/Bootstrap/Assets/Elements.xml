@@ -2,15 +2,16 @@
 
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
     <Module Name="Assets">
-        <File Type="GhostableInLibrary" Path="Assets\css\style.css" Url="css/style.css" />
-        <File Type="GhostableInLibrary" Path="Assets\img\pattern.png" Url="img/pattern.png" />
-        <File Type="GhostableInLibrary" Path="Assets\img\logo.png" Url="img/logo.png" />
-        <File Type="GhostableInLibrary" Path="Assets\img\enhancedlookup1.png" Url="img/enhancedlookup1.png" />
-        <File Type="GhostableInLibrary" Path="Assets\img\enhancedlookup2.png" Url="img/enhancedlookup2.png" />
-        <File Type="GhostableInLibrary" Path="Assets\img\enhancedlookup3.png" Url="img/enhancedlookup3.png" />
-        <File Type="GhostableInLibrary" Path="Assets\img\essentials.png" Url="img/essentials.png" />
-        <File Type="GhostableInLibrary" Path="Assets\js\script.js" Url="js/script.js" />
-        <File Type="GhostableInLibrary" Path="Assets\img\download.png" Url="img/download.png" />
-        <File Type="GhostableInLibrary" Path="Assets\wsp\Essentials.wsp" Url="wsp/Essentials.wsp" />
+        <File Path="Assets\css\style.css" Url="css/style.css" />
+        <File Path="Assets\img\pattern.png" Url="img/pattern.png" />
+        <File Path="Assets\img\logo.png" Url="img/logo.png" />
+        <File Path="Assets\img\enhancedlookup1.png" Url="img/enhancedlookup1.png" />
+        <File Path="Assets\img\enhancedlookup2.png" Url="img/enhancedlookup2.png" />
+        <File Path="Assets\img\enhancedlookup3.png" Url="img/enhancedlookup3.png" />
+        <File Path="Assets\img\essentials.png" Url="img/essentials.png" />
+        <File Path="Assets\js\script.js" Url="js/script.js" />
+        <File Path="Assets\img\download.png" Url="img/download.png" />
+        <File Path="Assets\wsp\Essentials.wsp" Url="wsp/Essentials.wsp" />
+        <File Path="Assets\img\lookup.png" Url="img/lookup.png" />
     </Module>
 </Elements>

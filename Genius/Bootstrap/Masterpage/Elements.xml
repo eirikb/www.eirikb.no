@@ -2,6 +2,6 @@
 
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
     <Module Name="Masterpage" Url="_catalogs/masterpage">
-        <File Type="GhostableInLibrary" Path="Masterpage\bootstrap.master" Url="bootstrap.master" />
+        <File Path="Masterpage\bootstrap.master" Url="bootstrap.master" />
     </Module>
 </Elements>
