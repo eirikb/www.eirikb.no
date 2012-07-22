@@ -54,29 +54,32 @@
         <hr />
         <div class="row">
             <div class="span3">
-                <dl class="well dl-horizontal">
-                    <dt>Version</dt>
-                    <dd>1.0.2</dd>
-                    <dt>Scope</dt>
-                    <dd>Site collection</dd>
-                    <dt>Sandboxed</dt>
-                    <dd><span class="label label-success">Yes</span></dd>
-                    <dt>Online</dt>
-                    <dd><span class="label label-success">Supported</span></dd>
-                    <dt>Foundation</dt>
-                    <dd><span class="label label-success">Supported</span></dd>
-                    <dt>Standard</dt>
-                    <dd><span class="label label-success">Supported</span></dd>
-                    <dt>Enterprise</dt>
-                    <dd><span class="label label-success">Supported</span></dd>
-                </dl>
+                <div class="well">
+                    <h3 class="light">Essentials</h3>
+                    <dl class="dl-horizontal">
+                        <dt>Version</dt>
+                        <dd>1.0.2</dd>
+                        <dt>Scope</dt>
+                        <dd>Site collection</dd>
+                        <dt>Sandboxed</dt>
+                        <dd><span class="label label-success">Yes</span></dd>
+                        <dt>Online</dt>
+                        <dd><span class="label label-success">Supported</span></dd>
+                        <dt>Foundation</dt>
+                        <dd><span class="label label-success">Supported</span></dd>
+                        <dt>Standard</dt>
+                        <dd><span class="label label-success">Supported</span></dd>
+                        <dt>Enterprise</dt>
+                        <dd><span class="label label-success">Supported</span></dd>
+                    </dl>
+                </div>
             </div>
             <div class="span3">
-                <a class="btn btn-large btn-dl" href="wsp/Essentials-1.0.2.wsp"><i class="download"></i>Download</a>
+                <a class="btn btn-large" href="wsp/Essentials-1.0.2.wsp"><i class="download"></i>Download</a>
             </div>
         </div>
         <div class="row">
-            <div class="span6">
+            <div class="span10">
                 <button class="btn btn-info btn-small" data-toggle="collapse" data-target="#essentials-fordevs">
                     <i class="icon-chevron-down"></i>
                     For Developers
@@ -153,22 +156,25 @@ genius.loadScript('jquery', 'http://code.jquery.com/jquery.min.js', function() {
         <hr />
         <div class="row">
             <div class="span3">
-                <dl class="well dl-horizontal">
-                    <dt>Version</dt>
-                    <dd>1.0.1</dd>
-                    <dt>Scope</dt>
-                    <dd>Site collection</dd>
-                    <dt>Sandboxed</dt>
-                    <dd><span class="label label-success">Yes</span></dd>
-                    <dt>Online</dt>
-                    <dd><span class="label label-success">Supported</span></dd>
-                    <dt>Foundation</dt>
-                    <dd><span class="label label-success">Supported</span></dd>
-                    <dt>Standard</dt>
-                    <dd><span class="label label-success">Supported</span></dd>
-                    <dt>Enterprise</dt>
-                    <dd><span class="label label-success">Supported</span></dd>
-                </dl>
+                <div class="well">
+                    <h3 class="light">Enhanced lookup</h3>
+                    <dl class="dl-horizontal">
+                        <dt>Version</dt>
+                        <dd>1.0.1</dd>
+                        <dt>Scope</dt>
+                        <dd>Site collection</dd>
+                        <dt>Sandboxed</dt>
+                        <dd><span class="label label-success">Yes</span></dd>
+                        <dt>Online</dt>
+                        <dd><span class="label label-success">Supported</span></dd>
+                        <dt>Foundation</dt>
+                        <dd><span class="label label-success">Supported</span></dd>
+                        <dt>Standard</dt>
+                        <dd><span class="label label-success">Supported</span></dd>
+                        <dt>Enterprise</dt>
+                        <dd><span class="label label-success">Supported</span></dd>
+                    </dl>
+                </div>
             </div>
             <div class="span6">
                 <div class="well buy">
@@ -181,6 +187,10 @@ genius.loadScript('jquery', 'http://code.jquery.com/jquery.min.js', function() {
                     </form>
                     <h5>We will send you a a WSP-file you can install to your SharePoint Online (or foundation/standard/server)</h5>
                 </div>
+            </div>
+            <div class="span2">
+                <h5>Legal</h5>
+                <p><a href="http://ivaynberg.github.com/select2/">Select2</a> is licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache Software Foundation License Version 2.0</a>. Coded by Igor Vaynberg.</p>
             </div>
         </div>
     </section>
