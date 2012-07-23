@@ -163,6 +163,8 @@ genius.loadScript('jquery', 'http://code.jquery.com/jquery.min.js', function() {
                         <dd>1.0.1</dd>
                         <dt>Scope</dt>
                         <dd>Site collection</dd>
+                        <dt>Dependencies</dt>
+                        <dd><a href="#essentials"><span class="label label-info">Essentials (free)</span></a></dd>
                         <dt>Sandboxed</dt>
                         <dd><span class="label label-success">Yes</span></dd>
                         <dt>Online</dt>
