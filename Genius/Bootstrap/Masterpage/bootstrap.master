@@ -53,6 +53,12 @@
                 <div class="logo"></div>
                 <h1>It's Genius! SharePoint Online solutions</h1>
                 <p class="lead">We create and design simple, elegant and genius solutions for <a href="http://www.microsoft.com/office365/sharepoint-online.aspx">SharePoint Online</a>.</p>
+                <div class="alert alert-info">
+                    <strong>Incubator state!</strong>
+                    This site is released only as a sneak peek of what we could offer in the future. 
+                    We have yet to establish all legality for the company (Genius AS) and this site (www.itsgenius.no).
+                    Please be restrained from forwarding any links to this site.
+                </div>
             </header>
 
             <asp:ContentPlaceHolder id="PlaceHolderMain" runat="server" />
