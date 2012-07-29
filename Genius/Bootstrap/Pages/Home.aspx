@@ -63,6 +63,8 @@
                         <dd>Site collection</dd>
                         <dt>Sandboxed</dt>
                         <dd><span class="label label-success">Yes</span></dd>
+                        <dt>2013</dt>
+                        <dd><span class="label label-success">Supported</span></dd>
                         <dt>Online</dt>
                         <dd><span class="label label-success">Supported</span></dd>
                         <dt>Foundation</dt>
@@ -132,6 +134,13 @@ genius.loadScript('jquery', 'http://code.jquery.com/jquery.min.js', function() {
                     <p>Tired of not finding items in the default lookup?</p>
                     <p>This component overlays your lookup (and lookup-multi) fields and makes them more user friendly.
                         <b>No need</b> to change your fields/columns, everything is left untouched from SharePoint point of view.</p>
+                    <h5>Features</h5>
+                    <ul>
+                        <li>Instantly added to all lists in a site collection</li>
+                        <li>Any site collection administrator can install it through solution gallery</li>
+                        <li>Can be enabled/disabled through a feature without affecting anything in SharePoint</li>
+                        <li>Works on every version of SharePoint 2010, SharePoint 2013 and SharePoint Online</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -167,6 +176,8 @@ genius.loadScript('jquery', 'http://code.jquery.com/jquery.min.js', function() {
                         <dd><a href="#essentials"><span class="label label-info">Essentials (free)</span></a></dd>
                         <dt>Sandboxed</dt>
                         <dd><span class="label label-success">Yes</span></dd>
+                        <dt>2013</dt>
+                        <dd><span class="label label-success">Supported</span></dd>
                         <dt>Online</dt>
                         <dd><span class="label label-success">Supported</span></dd>
                         <dt>Foundation</dt>
