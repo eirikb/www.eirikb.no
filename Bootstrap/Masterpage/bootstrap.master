@@ -2,18 +2,21 @@
 <%@ Master Language="C#" %>
 <%@ Register tagprefix="SharePoint" namespace="Microsoft.SharePoint.WebControls" assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <html lang="en">
-    <!--
-          ____            _                _    ____  
-         / ___| ___ _ __ (_)_   _ ___     / \  / ___| 
-        | |  _ / _ \ '_ \| | | | / __|   / _ \ \___ \ 
-        | |_| |  __/ | | | | |_| \__ \  / ___ \ ___) |
-         \____|\___|_| |_|_|\__,_|___/ /_/   \_\____/ 
+        <!--
+                                                             __      __
+                                               __         __/\ \    /\ \                         
+ __  __  __  __  __  __  __  __  __        __ /\_\  _ __ /\_\ \ \/'\\ \ \____      ___     ___   
+/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \     /'__`\/\ \/\`'__\/\ \ \ , < \ \ '__`\   /' _ `\  / __`\ 
+\ \ \_/ \_/ \ \ \_/ \_/ \ \ \_/ \_/ \ __/\  __/\ \ \ \ \/ \ \ \ \ \\`\\ \ \L\ \__/\ \/\ \/\ \L\ \
+ \ \___x___/'\ \___x___/'\ \___x___/'/\_\ \____\\ \_\ \_\  \ \_\ \_\ \_\ \_,__/\_\ \_\ \_\ \____/
+  \/__//__/   \/__//__/   \/__//__/  \/_/\/____/ \/_/\/_/   \/_/\/_/\/_/\/___/\/_/\/_/\/_/\/___/ 
 
-        www.itsgenius.no
+        by eirikb <eirikb@eirikb.no>
+        hosted on SharePoint Online
         -->
     <head>
         <meta charset="utf-8">
-        <title>Genius AS - SharePoint Online wizardry</title>
+        <title>www.eirikb.no - SharePoint Online wizardry</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <SharePoint:RobotsMetaTag ID="RobotsMetaTag1" runat="server"></SharePoint:RobotsMetaTag>
@@ -48,26 +51,6 @@
         </script>
     </head>
     <body>
-        <div class="container">
-            <header id="intro">
-                <div class="logo"></div>
-                <h1>It's Genius! SharePoint Online solutions</h1>
-                <p class="lead">We create and design simple, elegant and genius solutions for <a href="http://www.microsoft.com/office365/sharepoint-online.aspx">SharePoint Online</a>.</p>
-                <div class="alert alert-info">
-                    <strong>Incubator state!</strong>
-                    This site is released only as a sneak peek of what we could offer in the future. 
-                    We have yet to establish all legality for the company (Genius AS) and this site (www.itsgenius.no).
-                    Please be restrained from forwarding any links to this site.
-                </div>
-            </header>
-
-            <asp:ContentPlaceHolder id="PlaceHolderMain" runat="server" />
-
-            <footer class="footer">
-                <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>Designed and built by Genius AS</p>
-                <p>Hosted on <a href="http://www.microsoft.com/office365/sharepoint-online.aspx">SharePoint Online</a></p>
-            </footer>
-        </div>
+<asp:ContentPlaceHolder id="PlaceHolderMain" runat="server" />
     </body>
 </html>

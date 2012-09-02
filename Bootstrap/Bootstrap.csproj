@@ -7,11 +7,12 @@
     <ProjectGuid>{8161835F-7726-431D-8ACF-15917E16A3EF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Genius.SharePoint.Bootstrap</RootNamespace>
-    <AssemblyName>Genius.SharePoint.Bootstrap</AssemblyName>
+    <RootNamespace>Eirikb.SharePoint.Bootstrap</RootNamespace>
+    <AssemblyName>Eirikb.SharePoint.Bootstrap</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IncludeAssemblyInPackage>True</IncludeAssemblyInPackage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -74,9 +75,6 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="Pages\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{1b6da390-c4d1-4c48-8c36-77036e0b687c}</SharePointProjectItemId>
-    </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -96,10 +94,6 @@
     </Content>
     <Content Include="Features\GeniusBootstrap\GeniusBootstrap.Template.xml">
       <DependentUpon>GeniusBootstrap.feature</DependentUpon>
-    </Content>
-    <Content Include="Pages\Elements.xml" />
-    <Content Include="Pages\Home.aspx">
-      <SubType>ASPXCodeBehind</SubType>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
