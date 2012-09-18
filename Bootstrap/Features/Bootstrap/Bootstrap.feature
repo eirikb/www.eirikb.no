@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="984e3018-32fc-42ca-9a1f-91e00f6cd8fe" description="Twitter Bootstrap that page!" featureId="984e3018-32fc-42ca-9a1f-91e00f6cd8fe" imageUrl="" receiverAssembly="$SharePoint.Project.AssemblyFullName$" receiverClass="$SharePoint.Type.cd9b0999-d6fa-400e-a006-4b2951e55eb4.FullName$" scope="Site" solutionId="00000000-0000-0000-0000-000000000000" title="Eirikb - Bootstarp" version="" deploymentPath="$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="21a3a445-5147-4127-a5c6-42afff6fa8e7" featureId="21a3a445-5147-4127-a5c6-42afff6fa8e7" imageUrl="" receiverAssembly="$SharePoint.Project.AssemblyFullName$" receiverClass="$SharePoint.Type.0ac2f916-03fa-4224-a2d3-7728d74fb625.FullName$" solutionId="00000000-0000-0000-0000-000000000000" title="Eirikb - Bootstrap" version="" deploymentPath="$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
   <projectItems>
-    <projectItemReference itemId="a5151a26-9c5b-49d1-840c-1871c7951996" />
-    <projectItemReference itemId="fcd06921-64b3-4784-8cd3-d02396e5d353" />
+    <projectItemReference itemId="45a1316a-94c8-429e-876d-e4e31bd68ced" />
   </projectItems>
 </feature>

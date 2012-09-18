@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8161835F-7726-431D-8ACF-15917E16A3EF}</ProjectGuid>
+    <ProjectGuid>{590BF7BB-F910-42D7-A613-5990B54A8D2C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Eirikb.SharePoint.Bootstrap</RootNamespace>
@@ -12,7 +12,6 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <IncludeAssemblyInPackage>True</IncludeAssemblyInPackage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -48,29 +47,21 @@
     <Reference Include="Microsoft.SharePoint" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Features\GeniusBootstrap\GeniusBootstrap.EventReceiver.cs">
-      <DependentUpon>GeniusBootstrap.feature</DependentUpon>
+    <Compile Include="Features\Bootstrap\Bootstrap.EventReceiver.cs">
+      <DependentUpon>Bootstrap.feature</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\js\ponies.txt" />
-    <None Include="Assets\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{fcd06921-64b3-4784-8cd3-d02396e5d353}</SharePointProjectItemId>
-    </None>
-    <None Include="Assets\wsp\Essentials-1.0.2.wsp" />
-    <None Include="Masterpage\bootstrap.master">
-      <SubType>ASPXCodeBehind</SubType>
-    </None>
-    <None Include="Masterpage\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{a5151a26-9c5b-49d1-840c-1871c7951996}</SharePointProjectItemId>
-    </None>
-    <None Include="Features\GeniusBootstrap\GeniusBootstrap.feature">
-      <FeatureId>{b43507aa-5ae5-403b-910a-50004950cea1}</FeatureId>
+    <None Include="Features\Bootstrap\Bootstrap.feature">
+      <FeatureId>{d13a6f76-5cd7-4211-9de5-7f7d29166ca1}</FeatureId>
     </None>
     <None Include="key.snk" />
+    <None Include="Masterpage\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{45a1316a-94c8-429e-876d-e4e31bd68ced}</SharePointProjectItemId>
+    </None>
     <None Include="Package\Package.package">
-      <PackageId>{c7b97511-e1f9-4fae-be85-fe26082a1268}</PackageId>
+      <PackageId>{34ac932d-51ee-411f-aa58-2d27d2a10b81}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
@@ -78,23 +69,13 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Assets\css\style.css" />
-    <Content Include="Assets\Elements.xml" />
-    <Content Include="Assets\img\enhancedlookup1.png" />
-    <Content Include="Assets\img\enhancedlookup2.png" />
-    <Content Include="Assets\img\enhancedlookup3.png" />
-    <Content Include="Assets\img\essentials.png" />
-    <Content Include="Assets\img\download.png" />
-    <Content Include="Assets\img\logo.png" />
-    <Content Include="Assets\img\lookup.png" />
-    <Content Include="Assets\img\pattern.png" />
-    <Content Include="Assets\js\script.js" />
-    <Content Include="Masterpage\Elements.xml">
-      <SubType>Designer</SubType>
+    <Content Include="Features\Bootstrap\Bootstrap.Template.xml">
+      <DependentUpon>Bootstrap.feature</DependentUpon>
     </Content>
-    <Content Include="Features\GeniusBootstrap\GeniusBootstrap.Template.xml">
-      <DependentUpon>GeniusBootstrap.feature</DependentUpon>
-    </Content>
+    <Content Include="Masterpage\Elements.xml" />
+    <None Include="Masterpage\bootstrap.master">
+      <SubType>ASPXCodeBehind</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

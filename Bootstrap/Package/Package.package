@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="c7b97511-e1f9-4fae-be85-fe26082a1268" solutionId="c7b97511-e1f9-4fae-be85-fe26082a1268" resetWebServer="false" name="Bootstrap-1.0.4" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="34ac932d-51ee-411f-aa58-2d27d2a10b81" solutionId="34ac932d-51ee-411f-aa58-2d27d2a10b81" resetWebServer="false" name="Bootstrap" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <features>
-    <featureReference itemId="b43507aa-5ae5-403b-910a-50004950cea1" />
+    <featureReference itemId="d13a6f76-5cd7-4211-9de5-7f7d29166ca1" />
   </features>
 </package>
