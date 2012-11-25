@@ -78,7 +78,9 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Dump\css\style.css" />
+    <Content Include="Dump\dll\Extreme-SharePoint.txt" />
     <Content Include="Dump\Elements.xml" />
+    <Content Include="Dump\exe\JSONList.txt" />
     <Content Include="Dump\img\download.png" />
     <Content Include="Dump\img\enhancedlookup1.png" />
     <Content Include="Dump\img\enhancedlookup2.png" />

@@ -43,7 +43,7 @@
                 <p class="lead">SharePoint Stuff</p>
             </div>
         </header>
-    <section id="sale">
+    <section>
         <div class="page-header">
             <h1>Solutions<small>Components, Web Parts and tools for SharePoint</small></h1>
         </div>
@@ -63,15 +63,15 @@
                         </a>
                     </li>
                     <li class="span3">
-                        <div class="caption"><h3>Extreme SharePoint</h3></div>
-                        <a class="thumbnail" href="#extreme-sharepoint">
-                            <img src="dump/img/extreme-sharepoint.png" alt="Extreme SharePoint">
-                        </a>
-                    </li>
-                    <li class="span3">
                         <div class="caption"><h3>JSONList</h3></div>
                         <a class="thumbnail" href="#jsonlist">
                             <img src="dump/img/jsonlist.png" alt="JSONList">
+                        </a>
+                    </li>
+                    <li class="span3">
+                        <div class="caption"><h3>Extreme SharePoint</h3></div>
+                        <a class="thumbnail" href="#extreme-sharepoint">
+                            <img src="dump/img/extreme-sharepoint.png" alt="Extreme SharePoint">
                         </a>
                     </li>
                 </ul>
@@ -238,6 +238,79 @@
             <div class="span2">
                 <h5>Legal</h5>
                 <p><a href="http://ivaynberg.github.com/select2/">Select2</a> is licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache Software Foundation License Version 2.0</a>. Coded by Igor Vaynberg.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="jsonlist">
+        <div class="page-header">
+            <h1>JSONList</h1>
+        </div>
+        <div class="row">
+            <div class="span12">
+                <p>
+                    Export and Import data from and to lists.
+                    The program will only download the data, so views and such are ignored. The point of the application is:
+                    <ol>
+                        <li>Create a <b>SPWeb</b> including the list definitions and list instances required.</li>
+                        <li>Create all the data needed as usual.</li>
+                        <li>Run <b>JSONList.exe</b> to export all data.</li>
+                        <li>Do development, re-create the SPWeb (step 1).</li>
+                        <li>Run <b>JSONList.exe</b> to import all data.</li>
+                    </ol>
+                </p>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="span4">
+                <div class="well">
+                    <h3 class="light">JSONList</h3>
+                    <dl class="dl-horizontal">
+                        <dt>Version</dt>
+                        <dd>1.0.0.0</dd>
+                        <dt>Type</dt>
+                        <dd>Stand alone exe</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="span2">
+                <a class="btn btn-large" href="dump/exe/JSONList.txt"><i class="download"></i>Download (rename to exe)</a>
+            </div>
+            <div class="span2">
+                <a class="btn btn-large" href="https://github.com/eirikb/jsonlist"><i class="download github"></i>Source</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="extreme-sharepoint">
+        <div class="page-header">
+            <h1>Extreme SharePoint</h1>
+        </div>
+        <div class="row">
+            <div class="span12">
+                <p>
+                </p>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="span4">
+                <div class="well">
+                    <h3 class="light">Extreme SharePoint</h3>
+                    <dl class="dl-horizontal">
+                        <dt>Version</dt>
+                        <dd>1.0.0.0</dd>
+                        <dt>Type</dt>
+                        <dd>DLL</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="span2">
+                <a class="btn btn-large" href="dump/dll/extreme-sharepoint.dll"><i class="download"></i>Download (rename to DLL)</a>
+            </div>
+            <div class="span2">
+                <a class="btn btn-large" href="https://github.com/eirikb/extreme-sharepoint"><i class="download github"></i>Source</a>
             </div>
         </div>
     </section>

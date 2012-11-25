@@ -17,5 +17,7 @@
     <ProjectItemFile Source="img\extreme-sharepoint.png" Target="Dump\img\" Type="ElementFile" />
     <ProjectItemFile Source="wsp\SPPreload-1.0.5.wsp" Target="Dump\wsp\" Type="ElementFile" />
     <ProjectItemFile Source="wsp\EnhancedLookup-1.0.6.wsp" Target="Dump\wsp\" Type="ElementFile" />
+    <ProjectItemFile Source="exe\JSONList.txt" Target="Dump\exe\" Type="ElementFile" />
+    <ProjectItemFile Source="dll\Extreme-SharePoint.txt" Target="Dump\dll\" Type="ElementFile" />
   </Files>
 </ProjectItem>

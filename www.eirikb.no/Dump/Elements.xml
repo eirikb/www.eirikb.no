@@ -17,5 +17,7 @@
         <File Path="Dump\img\extreme-sharepoint.png" Url="img/extreme-sharepoint.png" />
         <File Path="Dump\wsp\SPPreload-1.0.5.wsp" Url="wsp/SPPreload-1.0.5.wsp" />
         <File Path="Dump\wsp\EnhancedLookup-1.0.6.wsp" Url="wsp/EnhancedLookup-1.0.6.wsp" />
+        <File Path="Dump\exe\JSONList.txt" Url="exe/JSONList.txt" />
+        <File Path="Dump\dll\Extreme-SharePoint.txt" Url="dll/Extreme-SharePoint.txt" />
     </Module>
 </Elements>
