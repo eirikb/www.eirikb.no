@@ -16,5 +16,6 @@
         <File Path="Dump\img\jsonlist.png" Url="img/jsonlist.png" />
         <File Path="Dump\img\extreme-sharepoint.png" Url="img/extreme-sharepoint.png" />
         <File Path="Dump\wsp\SPPreload-1.0.5.wsp" Url="wsp/SPPreload-1.0.5.wsp" />
+        <File Path="Dump\wsp\EnhancedLookup-1.0.6.wsp" Url="wsp/EnhancedLookup-1.0.6.wsp" />
     </Module>
 </Elements>

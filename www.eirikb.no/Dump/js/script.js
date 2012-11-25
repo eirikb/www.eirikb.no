@@ -2,7 +2,7 @@
     window.prettyPrint && prettyPrint();
 
     // .txt because of SharePoint Onlines issues with content type and .json
-    $.getJSON('js/ponies.txt', function(ponies) {
+    $.getJSON('dump/js/ponies.txt', function(ponies) {
         var $selects, $single, $multi;
 
         $selects = $('select');

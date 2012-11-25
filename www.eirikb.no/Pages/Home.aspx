@@ -57,7 +57,7 @@
                         </a>
                     </li>
                     <li class="span3">
-                        <div class="caption"><h3>Enhanced lookup</h3></div>
+                        <div class="caption"><h3>Enhanced Lookup</h3></div>
                         <a class="thumbnail" href="#enhancedlookup">
                             <img src="dump/img/enhancedlookup.png" alt="Enhanced Lookup">
                         </a>
@@ -165,12 +165,12 @@
 
     <section id="enhancedlookup">
         <div class="page-header">
-            <h1>Enhanced lookup</h1>
+            <h1>Enhanced Lookup</h1>
         </div>
         <div class="row">
             <div class="span8">
                 <div class="hero-unit">
-                    <img src="img/enhancedlookup1.png" />
+                    <img src="dump/img/enhancedlookup1.png" />
                     <p>Tired of not finding items in the default lookup?</p>
                     <p>This component overlays your lookup (and lookup-multi) fields and makes them more user friendly.
                         <b>No need</b> to change your fields/columns, everything is left untouched from SharePoint point of view.</p>
@@ -187,10 +187,10 @@
         <h2>Live demo</h2>
         <div class="row">
             <div class="span3">
-                <p>Enhanced lookup turns this (image):</p>
+                <p>Enhanced Lookup turns this (image):</p>
             </div>
             <div class="span6 well">
-                <img src="img/lookup.png" />
+                <img src="dump/img/lookup.png" />
             </div>
         </div>
         <div class="row">
@@ -204,12 +204,12 @@
         </div>
         <hr />
         <div class="row">
-            <div class="span3">
+            <div class="span4">
                 <div class="well">
-                    <h3 class="light">Enhanced lookup</h3>
+                    <h3 class="light">Enhanced Lookup</h3>
                     <dl class="dl-horizontal">
                         <dt>Version</dt>
-                        <dd>1.0.1</dd>
+                        <dd>1.0.6</dd>
                         <dt>Scope</dt>
                         <dd>Site collection</dd>
                         <dt>Dependencies</dt>
@@ -229,17 +229,11 @@
                     </dl>
                 </div>
             </div>
-            <div class="span6">
-                <div class="well buy">
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-">
-                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                    <h5>We will send you a a WSP-file you can install to your SharePoint Online (or foundation/standard/server)</h5>
-                </div>
+            <div class="span2">
+                <a class="btn btn-large" href="dump/wsp/EnhancedLookup-1.0.6.wsp"><i class="download"></i>Download</a>
+            </div>
+            <div class="span2">
+                <a class="btn btn-large" href="https://github.com/eirikb/enhancedlookup"><i class="download github"></i>Source</a>
             </div>
             <div class="span2">
                 <h5>Legal</h5>

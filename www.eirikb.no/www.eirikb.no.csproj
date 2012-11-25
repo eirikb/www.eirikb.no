@@ -59,6 +59,7 @@
     <None Include="Dump\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{5e52b0ca-fe17-43d3-8a14-89033160ec5e}</SharePointProjectItemId>
     </None>
+    <None Include="Dump\wsp\EnhancedLookup-1.0.6.wsp" />
     <None Include="Dump\wsp\SPPreload-1.0.5.wsp" />
     <None Include="Features\PagesWeb\PagesWeb.feature">
       <FeatureId>{722a17a3-e7ff-49b9-9487-05e30bd3d2da}</FeatureId>
