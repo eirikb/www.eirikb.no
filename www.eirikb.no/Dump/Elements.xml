@@ -13,5 +13,8 @@
         <File Path="Dump\img\pattern.png" Url="img/pattern.png" />
         <File Path="Dump\js\ponies.txt" Url="js/ponies.txt" />
         <File Path="Dump\js\script.js" Url="js/script.js" />
+        <File Path="Dump\img\jsonlist.png" Url="img/jsonlist.png" />
+        <File Path="Dump\img\extreme-sharepoint.png" Url="img/extreme-sharepoint.png" />
+        <File Path="Dump\wsp\SPPreload-1.0.5.wsp" Url="wsp/SPPreload-1.0.5.wsp" />
     </Module>
 </Elements>

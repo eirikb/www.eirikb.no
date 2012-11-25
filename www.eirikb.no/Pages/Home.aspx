@@ -1,5 +1,5 @@
 ﻿<%@ Assembly Name="Microsoft.Web.CommandUI, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
-<%@ Page masterpagefile="~site/_catalogs/masterpage/bootstrap.master" title="Genius" %>
+<%@ Page masterpagefile="~site/_catalogs/masterpage/bootstrap.master" title="www.eirikb.no" %>
 
 <asp:Content ID="About" runat="server" ContentPlaceHolderID="PlaceHolderAbout">
         <!--
@@ -51,25 +51,25 @@
             <div class="span12">
                 <ul class="thumbnails">
                     <li class="span3">
-                        <div class="caption"><h2>SPPreload</h2></div>
-                        <a class="thumbnail" href="#SPPreload">
+                        <div class="caption"><h3>SPPreload</h3></div>
+                        <a class="thumbnail" href="#sppreload">
                             <img src="dump/img/sppreload.png" alt="SPPreload">
                         </a>
                     </li>
                     <li class="span3">
-                        <div class="caption"><h2>Enhanced lookup</h2></div>
+                        <div class="caption"><h3>Enhanced lookup</h3></div>
                         <a class="thumbnail" href="#enhancedlookup">
                             <img src="dump/img/enhancedlookup.png" alt="Enhanced Lookup">
                         </a>
                     </li>
                     <li class="span3">
-                        <div class="caption"><h2>Extreme SharePoint</h2></div>
+                        <div class="caption"><h3>Extreme SharePoint</h3></div>
                         <a class="thumbnail" href="#extreme-sharepoint">
                             <img src="dump/img/extreme-sharepoint.png" alt="Extreme SharePoint">
                         </a>
                     </li>
                     <li class="span3">
-                        <div class="caption"><h2>JSONList</h2></div>
+                        <div class="caption"><h3>JSONList</h3></div>
                         <a class="thumbnail" href="#jsonlist">
                             <img src="dump/img/jsonlist.png" alt="JSONList">
                         </a>
@@ -85,23 +85,17 @@
         </div>
         <div class="row">
             <div class="span12">
-                <p>This pacakge is essential for other solutions provided by Genius AS. This is why it is free of any charge.</p>
-                <p>Developers can use any utility function available in the package as they wish.</p>
-                <p>The package includes and loads the most common libraries:</p>
-                <ul class="unstyled">
-                    <li><a href="http://jquery.com" target="_blank">jQuery</a></li>
-                    <li><a href="http://underscorejs.org" target="_blank">underscore.js</a></li>
-                </ul>
+                <p>This solution let developers reference JavaScript and CSS.</p>
             </div>
         </div>
         <hr />
         <div class="row">
-            <div class="span3">
+            <div class="span4">
                 <div class="well">
-                    <h3 class="light">Essentials</h3>
+                    <h3 class="light">SPPreload</h3>
                     <dl class="dl-horizontal">
                         <dt>Version</dt>
-                        <dd>1.0.2</dd>
+                        <dd>1.0.5</dd>
                         <dt>Scope</dt>
                         <dd>Site collection</dd>
                         <dt>Sandboxed</dt>
@@ -119,47 +113,50 @@
                     </dl>
                 </div>
             </div>
-            <div class="span3">
-                <a class="btn btn-large" href="wsp/Essentials-1.0.2.wsp"><i class="download"></i>Download</a>
+            <div class="span2">
+                <a class="btn btn-large" href="dump/wsp/SPPreload-1.0.5.wsp"><i class="download"></i>Download</a>
+            </div>
+            <div class="span2">
+                <a class="btn btn-large" href="https://github.com/eirikb/sppreload"><i class="download github"></i>Source</a>
             </div>
         </div>
         <div class="row">
             <div class="span10">
-                <button class="btn btn-info btn-small" data-toggle="collapse" data-target="#essentials-fordevs">
+                <button class="btn btn-info btn-small" data-toggle="collapse" data-target="#sppreload-fordevs">
                     <i class="icon-chevron-down"></i>
                     For Developers
                 </button>
  
-                <div id="essentials-fordevs" class="collapse">
-                    <h3>genius.loadScript</h3>
-                    <p>This is a JavaScript function which let developers load scripts. It can take these different arguments:</p>
-                    <ul>
-                        <li><b>loadScript(nameOfScript, urlToScript, callbackFunction)</b></li>
-                        <li><b>loadScript(nameOfScript, urlToScript)</b></li>
-                        <li><b>loadScript(nameOfScript, callbackFunction)</b></li>
-                        <li><b>loadScript(urlToScript)</b></li>
-                    </ul>
+                <div id="sppreload-fordevs" class="collapse">
                     <p>
-                        <b>nameOfScript</b> is used to identify scripts so they are only loaded once, the practice here is to use <i>lower case</i> names.
-                        Example usage:
+                        There are two main functions, <b>loadjs</b> and <b>loadcss</b>.
+                        Both functions should be called from within a module (Elements.xml), or at least inlined directly in the markup.
+                        
+                        <b>loadjs</b> support these arguments:
+                        <ul>
+                            <li><b>loadjs(scriptUrl)</b></li>
+                            <li><b>loadjs(scriptName, scriptUrl)</b></li>
+                            <li><b>loadjs([dependencies], scriptUrl)</b></li>
+                            <li><b>loadjs([dependencies], scriptName, scriptUrl)</b></li>
+                        </ul>
+                    </p>
+                    <p>
+                        Example module (From <a href="https://github.com/eirikb/enhancedlookup/blob/master/Assets/Elements.xml">EnhancedLookup</a>)
                     </p>
                     <pre class="prettyprint linenums">
-// Load jQuery from code.jquery.com
-genius.loadScript('jquery', 'http://code.jquery.com/jquery.min.js', function() {
-    // Load jQuery once more, but rely on the fact that it's already added to the "load" queue
-    genius.loadScript('jquery', function() {
-        $(function() {
-            alert('It works!');
-        });
-    });
-});
-                    </pre>
-                    <p>This can also be used in Elements.xml (Empty element in Visual Studio)</p>
-                    <pre class="prettyprint linenums">
+﻿&lt;?xml version="1.0" encoding="utf-8"?>
+
 &lt;Elements xmlns="http://schemas.microsoft.com/sharepoint/"&gt;
-    &CustomAction Location="ScriptLink" Sequence="1101"
-                  ScriptBlock="genius.loadScript('~site/mycompany/js/application.js');" /&gt;
-&lt;/Elements&gt;
+  &lt;CustomAction Location="ScriptLink" Sequence="1102" 
+    ScriptBlock="loadcss('http://ivaynberg.github.com/select2/select2-3.2/select2.css');" /&gt;
+
+  &lt;CustomAction Location="ScriptLink" Sequence="1101"
+    ScriptBlock="loadjs('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js');" /&gt;
+  &lt;CustomAction Location="ScriptLink" Sequence="1101"
+    ScriptBlock="loadjs(['jquery'], 'select2', 'http://ivaynberg.github.com/select2/select2-3.2/select2.min.js');" /&gt;
+  &lt;CustomAction Location="ScriptLink" Sequence="1103"
+    ScriptBlock="loadjs(['jquery', 'select2'], '/eirikb/js/enhancedlookup.js');" /&gt;
+&lt;Elements&gt;
                     </pre>
                 </div>
             </div>
@@ -216,7 +213,7 @@ genius.loadScript('jquery', 'http://code.jquery.com/jquery.min.js', function() {
                         <dt>Scope</dt>
                         <dd>Site collection</dd>
                         <dt>Dependencies</dt>
-                        <dd><a href="#essentials"><span class="label label-info">Essentials (free)</span></a></dd>
+                        <dd><a href="#sppreload"><span class="label label-info">SPPreload</span></a></dd>
                         <dt>Sandboxed</dt>
                         <dd><span class="label label-success">Yes</span></dd>
                         <dt>2013</dt>

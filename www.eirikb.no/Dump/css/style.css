@@ -32,6 +32,30 @@ section {
     border-width: 0 1px 1px;
 }
 
+.download {
+    background-image: url(../img/download.png);
+    display: block;
+    width: 110px;
+    height: 110px;
+    background-size: 110px;
+}
+
+a:hover .download {
+    transition: background-position 0.1s;
+    -moz-transition: background-position 0.1s;
+    -webkit-transition: background-position 0.1s;
+    -o-transition: background-position 0.1s;
+    background-position: 0px 5px;
+}
+
+.github {
+    background-image: url(https://raw.github.com/github/media/master/octocats/octocat.png);
+}
+
+dd { line-height: 20px; }
+
+.light { font-weight: 300; }
+
 /*
 body {
     font-family: 'Alike', serif;
@@ -114,25 +138,4 @@ footer { margin-bottom: 15px; }
 
 .badge:hover label { color: #005580; }
 
-.download {
-    background-image: url(../img/download.png);
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-size: 100px;
-}
-
-a:hover .download {
-    transition: background-position 0.1s;
-    -moz-transition: background-position 0.1s;
-    -webkit-transition: background-position 0.1s;
-    -o-transition: background-position 0.1s;
-    background-position: 0px 5px;
-}
-
-#demo select { width: 300px; }
-
-dd { line-height: 20px; }
-
-.light { font-weight: 300; }
     */

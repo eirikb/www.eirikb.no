@@ -13,5 +13,8 @@
     <ProjectItemFile Source="img\pattern.png" Target="Dump\img\" Type="ElementFile" />
     <ProjectItemFile Source="js\ponies.txt" Target="Dump\js\" Type="ElementFile" />
     <ProjectItemFile Source="js\script.js" Target="Dump\js\" Type="ElementFile" />
+    <ProjectItemFile Source="img\jsonlist.png" Target="Dump\img\" Type="ElementFile" />
+    <ProjectItemFile Source="img\extreme-sharepoint.png" Target="Dump\img\" Type="ElementFile" />
+    <ProjectItemFile Source="wsp\SPPreload-1.0.5.wsp" Target="Dump\wsp\" Type="ElementFile" />
   </Files>
 </ProjectItem>

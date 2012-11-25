@@ -59,6 +59,7 @@
     <None Include="Dump\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{5e52b0ca-fe17-43d3-8a14-89033160ec5e}</SharePointProjectItemId>
     </None>
+    <None Include="Dump\wsp\SPPreload-1.0.5.wsp" />
     <None Include="Features\PagesWeb\PagesWeb.feature">
       <FeatureId>{722a17a3-e7ff-49b9-9487-05e30bd3d2da}</FeatureId>
     </None>
@@ -81,6 +82,8 @@
     <Content Include="Dump\img\enhancedlookup1.png" />
     <Content Include="Dump\img\enhancedlookup2.png" />
     <Content Include="Dump\img\enhancedlookup.png" />
+    <Content Include="Dump\img\extreme-sharepoint.png" />
+    <Content Include="Dump\img\jsonlist.png" />
     <Content Include="Dump\img\sppreload.png" />
     <Content Include="Dump\img\logo.png" />
     <Content Include="Dump\img\lookup.png" />
