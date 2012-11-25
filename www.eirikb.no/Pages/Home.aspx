@@ -1,33 +1,77 @@
 ﻿<%@ Assembly Name="Microsoft.Web.CommandUI, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
-
 <%@ Page masterpagefile="~site/_catalogs/masterpage/bootstrap.master" title="Genius" %>
 
-<asp:Content ID="Content2" runat="server" ContentPlaceHolderID="PlaceHolderMain">
+<asp:Content ID="About" runat="server" ContentPlaceHolderID="PlaceHolderAbout">
+        <!--
+                                                             __      __
+                                               __         __/\ \    /\ \                         
+ __  __  __  __  __  __  __  __  __        __ /\_\  _ __ /\_\ \ \/'\\ \ \____      ___     ___   
+/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \     /'__`\/\ \/\`'__\/\ \ \ , < \ \ '__`\   /' _ `\  / __`\ 
+\ \ \_/ \_/ \ \ \_/ \_/ \ \ \_/ \_/ \ __/\  __/\ \ \ \ \/ \ \ \ \ \\`\\ \ \L\ \__/\ \/\ \/\ \L\ \
+ \ \___x___/'\ \___x___/'\ \___x___/'/\_\ \____\\ \_\ \_\  \ \_\ \_\ \_\ \_,__/\_\ \_\ \_\ \____/
+  \/__//__/   \/__//__/   \/__//__/  \/_/\/____/ \/_/\/_/   \/_/\/_/\/_/\/___/\/_/\/_/\/_/\/___/ 
+
+        by eirikb <eirikb@eirikb.no>
+        hosted on SharePoint Online
+        -->
+</asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="PlaceHolderPageTitle">www.eirikb.no - SharePoint 2010, SharePoint 2013</asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="PlaceHolderAdditionalStyles">
+        <link rel="stylesheet" href="dump/css/style.css" />
+</asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="PlaceHolderAdditionalScripts">
+        <script src="dump/js/script.js"> </script>
+        <script>
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-33400470-1']);
+            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+</asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="PlaceHolderMain">
+    <div class="container">
+        <header class="jumbotron subhead">
+            <div class="container">
+                <h1>www.eirikb.no</h1>
+                <p class="lead">SharePoint Stuff</p>
+            </div>
+        </header>
     <section id="sale">
         <div class="page-header">
-            <h1>Products<small>Components, plugins and Web Parts for SharePoint Online</small></h1>
+            <h1>Solutions<small>Components, Web Parts and tools for SharePoint</small></h1>
         </div>
         <div class="row">
-            <div class="span8">
+            <div class="span12">
                 <ul class="thumbnails">
-                    <li class="span4">
-                        <div class="caption"><h1>Essentials</h1></div>
-                        <a class="thumbnail" href="#essentials">
-                            <img src="img/essentials.png" alt="Essentials">
-                            <div class="badge">
-                                <div class="twelve-point-star"></div>
-                                <label>Free!</label>
-                            </div>
+                    <li class="span3">
+                        <div class="caption"><h2>SPPreload</h2></div>
+                        <a class="thumbnail" href="#SPPreload">
+                            <img src="dump/img/sppreload.png" alt="SPPreload">
                         </a>
                     </li>
-                    <li class="span4">
-                        <div class="caption"><h1>Enhanced lookup</h1></div>
+                    <li class="span3">
+                        <div class="caption"><h2>Enhanced lookup</h2></div>
                         <a class="thumbnail" href="#enhancedlookup">
-                            <img src="img/enhancedlookup3.png" alt="Enhanced Lookup">
-                            <div class="badge">
-                                <div class="twelve-point-star"></div>
-                                <label>$299</label>
-                            </div>
+                            <img src="dump/img/enhancedlookup.png" alt="Enhanced Lookup">
+                        </a>
+                    </li>
+                    <li class="span3">
+                        <div class="caption"><h2>Extreme SharePoint</h2></div>
+                        <a class="thumbnail" href="#extreme-sharepoint">
+                            <img src="dump/img/extreme-sharepoint.png" alt="Extreme SharePoint">
+                        </a>
+                    </li>
+                    <li class="span3">
+                        <div class="caption"><h2>JSONList</h2></div>
+                        <a class="thumbnail" href="#jsonlist">
+                            <img src="dump/img/jsonlist.png" alt="JSONList">
                         </a>
                     </li>
                 </ul>
@@ -35,13 +79,12 @@
         </div>
     </section>
 
-    <section id="essentials">
+    <section id="sppreload">
         <div class="page-header">
-            <h1>Essentials</h1>
+            <h1>SPPreload</h1>
         </div>
         <div class="row">
             <div class="span12">
-                <h3>The free <i>Genius</i> package</h3>
                 <p>This pacakge is essential for other solutions provided by Genius AS. This is why it is free of any charge.</p>
                 <p>Developers can use any utility function available in the package as they wish.</p>
                 <p>The package includes and loads the most common libraries:</p>
@@ -207,4 +250,5 @@ genius.loadScript('jquery', 'http://code.jquery.com/jquery.min.js', function() {
             </div>
         </div>
     </section>
+        </div>
 </asp:Content>

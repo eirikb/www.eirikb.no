@@ -1,22 +1,16 @@
 ﻿<!DOCTYPE html>
 <%@ Master Language="C#" %>
-<%@ Register tagprefix="SharePoint" namespace="Microsoft.SharePoint.WebControls" assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
-<html lang="en">
-        <!--
-                                                             __      __
-                                               __         __/\ \    /\ \                         
- __  __  __  __  __  __  __  __  __        __ /\_\  _ __ /\_\ \ \/'\\ \ \____      ___     ___   
-/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \     /'__`\/\ \/\`'__\/\ \ \ , < \ \ '__`\   /' _ `\  / __`\ 
-\ \ \_/ \_/ \ \ \_/ \_/ \ \ \_/ \_/ \ __/\  __/\ \ \ \ \/ \ \ \ \ \\`\\ \ \L\ \__/\ \/\ \/\ \L\ \
- \ \___x___/'\ \___x___/'\ \___x___/'/\_\ \____\\ \_\ \_\  \ \_\ \_\ \_\ \_,__/\_\ \_\ \_\ \____/
-  \/__//__/   \/__//__/   \/__//__/  \/_/\/____/ \/_/\/_/   \/_/\/_/\/_/\/___/\/_/\/_/\/_/\/___/ 
+<%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
+<%@ Assembly Name="Microsoft.Web.CommandUI, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
+<%@ Register Tagprefix="WebPartPages" Namespace="Microsoft.SharePoint.WebPartPages" Assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 
-        by eirikb <eirikb@eirikb.no>
-        hosted on SharePoint Online
-        -->
+<html lang="en">
+    <asp:ContentPlaceHolder id="PlaceHolderAbout" runat="server"/>
     <head>
         <meta charset="utf-8">
-        <title>www.eirikb.no - SharePoint Online wizardry</title>
+        <title>
+            <asp:ContentPlaceHolder id="PlaceHolderPageTitle" runat="server" />
+        </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <SharePoint:RobotsMetaTag ID="RobotsMetaTag1" runat="server"></SharePoint:RobotsMetaTag>
@@ -26,31 +20,29 @@
         <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.css">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alike">
         <link rel="stylesheet" href="http://ivaynberg.github.com/select2/select2-2.1/select2.css" />
-        <link rel="stylesheet" href="css/style.css">
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>
         <![endif]-->
-
+        <asp:ContentPlaceHolder id="PlaceHolderAdditionalStyles" runat="server"/>
+        <SharePoint:DelegateControl ID="AdditionalStyles" runat="server" ControlId="AdditionalStyles" AllowMultipleControls="true"/>
+    </head>
+    <body>
+        <asp:ContentPlaceHolder id="PlaceHolderMain" runat="server" />
+        <asp:Panel runat="server" Visible="FALSE">
+            <WebPartPages:SPWebPartManager id="m" runat="Server"/>
+            <asp:ContentPlaceHolder id="PlaceHolderLeftActions" runat="server" />
+            <asp:ContentPlaceHolder id="PlaceHolderPageImage" runat="server" />
+            <asp:ContentPlaceHolder id="PlaceHolderPageDescription" runat="server" />
+            <asp:ContentPlaceHolder id="PlaceHolderTitleAreaClass" runat="server" />
+            <asp:ContentPlaceHolder id="PlaceHolderSearchArea" runat="server" />
+            <asp:ContentPlaceHolder id="PlaceHolderPageTitleInTitleArea" runat="server" />
+            <asp:ContentPlaceHolder id="PlaceHolderBodyAreaClass" runat="server" />
+        </asp:Panel>
         <script src="http://code.jquery.com/jquery.min.js"> </script>
         <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js"> </script>
         <script src="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.js"> </script>
         <script src="http://ivaynberg.github.com/select2/select2-2.1/select2.js"> </script>
-        <script src="js/script.js"> </script>
-        <script>
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-33400470-1']);
-            _gaq.push(['_trackPageview']);
-            (function () {
-                var ga = document.createElement('script');
-                ga.type = 'text/javascript';
-                ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(ga, s);
-            })();
-        </script>
-    </head>
-    <body>
-<asp:ContentPlaceHolder id="PlaceHolderMain" runat="server" />
+        <asp:ContentPlaceHolder id="PlaceHolderAdditionalScripts" runat="server"/>
+        <SharePoint:DelegateControl ID="AdditionalScripts" runat="server" ControlId="AdditionalScripts" AllowMultipleControls="true"/>
     </body>
 </html>

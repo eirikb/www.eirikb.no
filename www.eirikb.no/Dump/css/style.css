@@ -1,4 +1,39 @@
 ﻿body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.jumbotron {
+    margin: 60px 0;
+    text-align: center;
+}
+.jumbotron h1 {
+    font-size: 72px;
+    line-height: 1;
+}
+
+section {
+    padding-top: 30px;
+}
+
+.navbar-fixed-top {
+    left: 15%;
+    right: 15%;
+}
+
+.navbar-fixed-top .navbar-inner {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    border-width: 0 1px 1px;
+}
+
+/*
+body {
     font-family: 'Alike', serif;
     font-weight: 400;
     background-image: url(../img/pattern.png);
@@ -38,7 +73,6 @@ footer { margin-bottom: 15px; }
     background: yellow;
     content: "";
     position: absolute;
-    /* Rotate */
     -moz-transform: rotate(30deg);
     -webkit-transform: rotate(30deg);
     -ms-transform: rotate(30deg);
@@ -52,7 +86,6 @@ footer { margin-bottom: 15px; }
     background: yellow;
     content: "";
     position: absolute;
-    /* Rotate */
     -moz-transform: rotate(-30deg);
     -webkit-transform: rotate(-30deg);
     -ms-transform: rotate(-30deg);
@@ -102,3 +135,4 @@ a:hover .download {
 dd { line-height: 20px; }
 
 .light { font-weight: 300; }
+    */

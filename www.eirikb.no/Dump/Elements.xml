@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Module Name="Dump" Url="Dump">
+        <File Path="Dump\css\style.css" Url="css/style.css" />
+        <File Path="Dump\img\download.png" Url="img/download.png" />
+        <File Path="Dump\img\enhancedlookup1.png" Url="img/enhancedlookup1.png" />
+        <File Path="Dump\img\enhancedlookup2.png" Url="img/enhancedlookup2.png" />
+        <File Path="Dump\img\enhancedlookup.png" Url="img/enhancedlookup.png" />
+        <File Path="Dump\img\sppreload.png" Url="img/sppreload.png" />
+        <File Path="Dump\img\logo.png" Url="img/logo.png" />
+        <File Path="Dump\img\lookup.png" Url="img/lookup.png" />
+        <File Path="Dump\img\pattern.png" Url="img/pattern.png" />
+        <File Path="Dump\js\ponies.txt" Url="js/ponies.txt" />
+        <File Path="Dump\js\script.js" Url="js/script.js" />
+    </Module>
+</Elements>

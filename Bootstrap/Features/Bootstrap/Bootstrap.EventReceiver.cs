@@ -9,7 +9,7 @@ namespace Eirikb.SharePoint.Bootstrap.Features.Bootstrap
         private static void SetMasterpageOnWeb(SPFeatureReceiverProperties properties, string masterUrl)
         {
             var web = (SPWeb)properties.Feature.Parent;
-            masterUrl = "/_catalogs/masterpage/" + masterUrl;
+            masterUrl = "/www/_catalogs/masterpage/" + masterUrl;
             web.MasterUrl = masterUrl;
             web.CustomMasterUrl = masterUrl;
             web.Update();
