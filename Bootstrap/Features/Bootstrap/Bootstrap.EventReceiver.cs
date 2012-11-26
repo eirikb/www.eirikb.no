@@ -6,23 +6,15 @@ namespace Eirikb.SharePoint.Bootstrap.Features.Bootstrap
     [Guid("0ac2f916-03fa-4224-a2d3-7728d74fb625")]
     public class BootstrapEventReceiver : SPFeatureReceiver
     {
-        private static void SetMasterpageOnWeb(SPFeatureReceiverProperties properties, string masterUrl)
+        public override void FeatureActivated(SPFeatureReceiverProperties properties)
         {
-            var web = (SPWeb)properties.Feature.Parent;
-            masterUrl = "/www/_catalogs/masterpage/" + masterUrl;
+            var site = (SPSite) properties.Feature.Parent;
+            var web = site.RootWeb;
+
+            var masterUrl = web.ServerRelativeUrl + "/_catalogs/masterpage/bootstrap.master";
             web.MasterUrl = masterUrl;
             web.CustomMasterUrl = masterUrl;
             web.Update();
-        }
-
-        public override void FeatureActivated(SPFeatureReceiverProperties properties)
-        {
-            SetMasterpageOnWeb(properties, "bootstrap.master");
-        }
-
-        public override void FeatureDeactivating(SPFeatureReceiverProperties properties)
-        {
-            SetMasterpageOnWeb(properties, "root.master");
         }
     }
 }

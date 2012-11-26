@@ -50,8 +50,8 @@
     <Reference Include="Microsoft.SharePoint" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Features\PagesWeb\PagesWeb.EventReceiver.cs">
-      <DependentUpon>PagesWeb.feature</DependentUpon>
+    <Compile Include="Features\Pages\Pages.EventReceiver.cs">
+      <DependentUpon>Pages.feature</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -61,7 +61,7 @@
     </None>
     <None Include="Dump\wsp\EnhancedLookup-1.0.6.wsp" />
     <None Include="Dump\wsp\SPPreload-1.0.5.wsp" />
-    <None Include="Features\PagesWeb\PagesWeb.feature">
+    <None Include="Features\Pages\Pages.feature">
       <FeatureId>{722a17a3-e7ff-49b9-9487-05e30bd3d2da}</FeatureId>
     </None>
     <None Include="key.snk" />
@@ -93,8 +93,8 @@
     <Content Include="Dump\img\pattern.png" />
     <Content Include="Dump\js\ponies.txt" />
     <Content Include="Dump\js\script.js" />
-    <Content Include="Features\PagesWeb\PagesWeb.Template.xml">
-      <DependentUpon>PagesWeb.feature</DependentUpon>
+    <Content Include="Features\Pages\Pages.Template.xml">
+      <DependentUpon>Pages.feature</DependentUpon>
     </Content>
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Home.aspx">
